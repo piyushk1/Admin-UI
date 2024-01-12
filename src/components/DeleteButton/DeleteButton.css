@@ -18,4 +18,13 @@
     cursor: not-allowed;
   }
   
+    /* Media Queries */
+    @media only screen and (max-width: 600px) {
+
+
+  .delete-selected-button {
+    left: 190px;
+    bottom: -355px;
+  }
+    }
   

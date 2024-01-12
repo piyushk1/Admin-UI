@@ -47,3 +47,24 @@
   .modal button:hover {
     background-color: #45a049;
   }
+
+  @media only screen and (max-width: 600px) {
+    .modal-content {
+      padding: 20px; /* Adjust padding for smaller screens */
+      width: 90%; /* Adjust width for smaller screens */
+    }
+    
+    .modal h3 {
+      font-size: 20px; /* Adjust font size for smaller screens */
+    }
+    
+    .modal p {
+      font-size: 14px; /* Adjust font size for smaller screens */
+    }
+    
+    .modal button {
+      padding: 10px 20px; /* Adjust padding for smaller screens */
+      font-size: 16px; /* Adjust font size for smaller screens */
+    }
+  
+  }  
