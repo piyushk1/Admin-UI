@@ -1,0 +1,31 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+
+.pagination {
+    margin-top: 10px;
+    text-align: center; /* Align buttons to the center */
+  }
+  
+  .pagination button {
+    display: inline-block;
+    padding: 5px 10px;
+    margin-right: 5px;
+    background-color: #f2f2f2;
+    border: none;
+    border-radius: 20px; /* Add border-radius for rounded corners */
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .pagination button.active {
+    background-color: #b3d9ff;
+  }
+  
+  .pagination button.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  .pagination button:hover {
+    background-color: #b3d9ff;
+  }
+  
